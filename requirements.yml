@@ -1,0 +1,12 @@
+name: snakemake_fun
+
+channels:
+  - conda-forge
+
+dependencies:
+  - bioconda::snakemake-minimal
+  - click
+  - python==3.9
+  - pip
+  - pip:
+    - parse
